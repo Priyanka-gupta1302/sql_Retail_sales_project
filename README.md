@@ -69,7 +69,7 @@ WHERE
 
 The following SQL queries were developed to answer specific business questions:
 
-1. ** Write a SQL query to retrieve all columns for sales made on '2022-11-05?**
+1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05?**:
 ```sql
 SELECT *
 FROM retail_sales
@@ -112,7 +112,7 @@ SELECT * FROM retail_sales
 WHERE total_sale > 1000
 ```
 
-6. ** Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.**
+6. **Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.**
 ```sql
 SELECT 
     category,
@@ -145,7 +145,7 @@ GROUP BY 1, 2
 WHERE rank = 1
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **
+8. **Write a SQL query to find the top 5 customers based on the highest total sales**
 ```sql
 SELECT 
     customer_id,
